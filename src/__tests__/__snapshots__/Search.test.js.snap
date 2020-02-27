@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render a search 1`] = `
+<body>
+  <div>
+    <div>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light"
+      >
+        <a
+          class="navbar-brand"
+          href="#home"
+        >
+          OMDB
+        </a>
+        <button
+          aria-controls="basic-navbar-nav"
+          aria-label="Toggle navigation"
+          class="navbar-toggler collapsed"
+          type="button"
+        >
+          <span
+            class="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          class="navbar-collapse collapse"
+          id="basic-navbar-nav"
+        >
+          <div
+            class="mr-auto navbar-nav"
+          >
+            <a
+              class="nav-link"
+              data-rb-event-key="#home"
+              href="#home"
+            >
+              Home
+            </a>
+            <a
+              class="nav-link"
+              data-rb-event-key="#link"
+              href="#link"
+            >
+              Link
+            </a>
+          </div>
+          <form
+            class="form-inline"
+          >
+            <input
+              class="mr-sm-2 form-control"
+              placeholder="Search"
+              type="text"
+            />
+            <button
+              class="btn btn-outline-success"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+      <p>
+        Couldn't find a movie, try again
+      </p>
+    </div>
+  </div>
+</body>
+`;
